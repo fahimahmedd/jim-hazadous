@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work Order Request | Jim's Hazardous Material Removal (Auburn)</title>
+
+    <meta name="title" content="Jim's Hazardous Material Removal (Auburn) | Asbestos & Mould Remediation Experts">
+    <meta name="description" content="Professional asbestos removal, mould remediation, and hazardous material cleanup in NSW, ACT & QLD. Licensed experts with 15+ years experience. Free quotes & 24/7 emergency service. Call 0435 558 133.">
+    <meta name="keywords" content="asbestos removal, mould remediation, hazardous material removal, asbestos testing, meth lab cleanup, fire restoration, Auburn, Sydney, NSW, ACT, QLD">
+    <meta name="author" content="Jim's Hazardous Material Removal (Auburn)">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jimshazardousmaterialsafetyremoval.com.au/">
+    <meta property="og:title" content="Jim's Hazardous Material Removal (Auburn) | Asbestos & Mould Experts">
+    <meta property="og:description" content="Professional asbestos removal, mould remediation, and hazardous material cleanup in NSW, ACT & QLD. Licensed experts with 7+ years experience. Free quotes & 24/7 emergency service.">
+    <meta property="og:image" content="https://jimshazardousmaterialsafetyremoval.com.au/assets/images/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="Jim's Hazardous Material Removal (Auburn)">
+    <meta property="og:locale" content="en_AU">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://jimshazardousmaterialsafetyremoval.com.au/">
+    <meta property="twitter:title" content="Jim's Hazardous Material Removal (Auburn) | Asbestos & Mould Experts">
+    <meta property="twitter:description" content="Professional asbestos removal, mould remediation, and hazardous material cleanup in NSW, ACT & QLD. Licensed experts with 7+ years experience. Free quotes & 24/7 emergency service.">
+    <meta property="twitter:image" content="https://jimshazardousmaterialsafetyremoval.com.au/assets/images/twitter-image.jpg">
+
+    <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/x-icon">
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        :root {
+            --primary: #F26727;
+            --primary-dark: #d95620;
+            --primary-light: #fff0e6;
+            --primary-soft: #fff6f0;
+            --dark: #1a1a2e;
+            --light: #ffffff;
+            --gray-bg: #f8f9fa;
+        }
+
+        .gradient-text {
+            background: linear-gradient(135deg, #F26727 0%, #ff8a50 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        /* Breadcrumb */
+        .breadcrumb {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 0.9rem;
+        }
+
+        .breadcrumb a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .breadcrumb a:hover {
+            color: var(--primary);
+        }
+
+        /* Welcome Card */
+        .welcome-card {
+            background: linear-gradient(135deg, #ffffff 0%, #fafafa 100%);
+            border-radius: 30px;
+            padding: 3rem;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.03);
+            border: 1px solid rgba(242, 103, 39, 0.1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .welcome-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 200px;
+            height: 200px;
+            background: radial-gradient(circle, rgba(242, 103, 39, 0.05) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        .welcome-card::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 150px;
+            height: 150px;
+            background: radial-gradient(circle, rgba(26, 26, 46, 0.03) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        /* Instruction Steps */
+        .instruction-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+
+        .instruction-card {
+            background: white;
+            padding: 2.5rem 2rem;
+            border-radius: 24px;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.03);
+            border: 1px solid #edf2f7;
+            transition: all 0.4s;
+            position: relative;
+            text-align: center;
+        }
+
+        .instruction-card:hover {
+            transform: translateY(-10px);
+            border-color: var(--primary);
+            box-shadow: 0 25px 50px rgba(242, 103, 39, 0.1);
+        }
+
+        .instruction-icon {
+            width: 80px;
+            height: 80px;
+            background: rgba(242, 103, 39, 0.1);
+            border-radius: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1.5rem;
+            transition: all 0.4s;
+        }
+
+        .instruction-card:hover .instruction-icon {
+            background: var(--primary);
+            transform: scale(1.1) rotate(5deg);
+        }
+
+        .instruction-card:hover .instruction-icon i {
+            color: white;
+        }
+
+        .instruction-icon i {
+            font-size: 2.5rem;
+            color: var(--primary);
+            transition: all 0.4s;
+        }
+
+        .instruction-card h3 {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--dark);
+            margin-bottom: 1rem;
+        }
+
+        .instruction-card p {
+            color: #6c757d;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        .step-number {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            font-size: 3rem;
+            font-weight: 800;
+            color: rgba(242, 103, 39, 0.1);
+            line-height: 1;
+        }
+
+        /* Email Card */
+        .email-card {
+            background: linear-gradient(135deg, #1a1a2e 0%, #2d2d44 100%);
+            border-radius: 30px;
+            padding: 3rem;
+            color: white;
+            position: relative;
+            overflow: hidden;
+            margin: 3rem 0;
+        }
+
+        .email-card::before {
+            content: '';
+            position: absolute;
+            top: -50px;
+            right: -50px;
+            width: 200px;
+            height: 200px;
+            background: radial-gradient(circle, rgba(242, 103, 39, 0.2) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        .email-card::after {
+            content: '';
+            position: absolute;
+            bottom: -50px;
+            left: -50px;
+            width: 200px;
+            height: 200px;
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.05) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        .email-content {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+            justify-content: center;
+            position: relative;
+            z-index: 2;
+        }
+
+        .email-icon {
+            width: 100px;
+            height: 100px;
+            background: rgba(242, 103, 39, 0.2);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px dashed rgba(255, 255, 255, 0.3);
+        }
+
+        .email-icon i {
+            font-size: 3rem;
+            color: white;
+        }
+
+        .email-address {
+            font-size: 2rem;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 1rem 2rem;
+            border-radius: 60px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+        }
+
+        .email-address i {
+            color: var(--primary);
+            margin-right: 1rem;
+        }
+
+        .email-address span {
+            color: white;
+        }
+
+        .email-icon,
+.email-address {
+    transition: all 0.3s ease;
+}
+
+.email-icon:hover,
+.email-address:hover {
+    color: #00C9B8;
+    transform: translateY(-3px);
+}
+
+        /* Photo Upload Section */
+        .photo-section {
+            background: #f8f9fa;
+            border-radius: 30px;
+            padding: 2.5rem;
+            margin: 2rem 0;
+            border: 1px solid #e9ecef;
+        }
+
+        .photo-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1rem;
+            margin: 2rem 0 1rem;
+        }
+
+        .photo-placeholder {
+            aspect-ratio: 1/1;
+            background: white;
+            border-radius: 16px;
+            border: 2px dashed #dee2e6;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+
+        .photo-placeholder:hover {
+            border-color: var(--primary);
+            background: rgba(242, 103, 39, 0.02);
+        }
+
+        .photo-placeholder i {
+            font-size: 2rem;
+            color: #adb5bd;
+            margin-bottom: 0.5rem;
+            transition: all 0.3s;
+        }
+
+        .photo-placeholder:hover i {
+            color: var(--primary);
+        }
+
+        .photo-placeholder span {
+            font-size: 0.8rem;
+            color: #6c757d;
+        }
+
+        /* Insurance Documents */
+        .insurance-section {
+            background: white;
+            border-radius: 30px;
+            padding: 3rem;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.03);
+            border: 1px solid #edf2f7;
+            margin: 3rem 0;
+        }
+
+        .insurance-buttons {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .insurance-btn {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 2.5rem 2rem;
+            border-radius: 24px;
+            text-align: center;
+            transition: all 0.4s;
+            border: 1px solid #dee2e6;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .insurance-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(242, 103, 39, 0.1) 0%, transparent 100%);
+            opacity: 0;
+            transition: all 0.4s;
+        }
+
+        .insurance-btn:hover {
+            transform: translateY(-10px);
+            border-color: var(--primary);
+            box-shadow: 0 25px 40px rgba(242, 103, 39, 0.15);
+        }
+
+        .insurance-btn:hover::before {
+            opacity: 1;
+        }
+
+        .insurance-btn i {
+            font-size: 3.5rem;
+            color: var(--primary);
+            margin-bottom: 1rem;
+            position: relative;
+            z-index: 2;
+        }
+
+        .insurance-btn h4 {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--dark);
+            margin-bottom: 0.5rem;
+            position: relative;
+            z-index: 2;
+        }
+
+        .insurance-btn p {
+            color: #6c757d;
+            font-size: 0.9rem;
+            margin-bottom: 1.5rem;
+            position: relative;
+            z-index: 2;
+        }
+
+        .download-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: var(--primary);
+            color: white;
+            padding: 0.8rem 2rem;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: all 0.3s;
+            position: relative;
+            z-index: 2;
+        }
+
+        .download-btn:hover {
+            background: var(--primary-dark);
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(242, 103, 39, 0.3);
+        }
+
+        .download-btn i {
+            font-size: 1rem;
+            margin-bottom: 0;
+            color: white;
+        }
+
+        /* Description Box */
+        .description-box {
+            background: white;
+            border-radius: 20px;
+            padding: 2rem;
+            border: 1px solid #edf2f7;
+            margin: 2rem 0;
+        }
+
+        .description-box textarea {
+            width: 100%;
+            padding: 1.5rem;
+            border: 2px solid #e9ecef;
+            border-radius: 16px;
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            resize: vertical;
+            min-height: 150px;
+            transition: all 0.3s;
+        }
+
+        .description-box textarea:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 4px rgba(242, 103, 39, 0.1);
+        }
+
+        .description-box textarea::placeholder {
+            color: #adb5bd;
+        }
+
+        /* Submit Button */
+        .submit-btn {
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 1.5rem 3rem;
+            border-radius: 60px;
+            font-size: 1.2rem;
+            font-weight: 700;
+            display: inline-flex;
+            align-items: center;
+            gap: 1rem;
+            cursor: pointer;
+            transition: all 0.4s;
+            box-shadow: 0 15px 30px rgba(242, 103, 39, 0.2);
+        }
+
+        .submit-btn:hover {
+            background: var(--primary-dark);
+            transform: translateY(-5px);
+            box-shadow: 0 25px 40px rgba(242, 103, 39, 0.3);
+        }
+
+        .submit-btn i {
+            transition: transform 0.3s;
+        }
+
+        .submit-btn:hover i {
+            transform: translateX(5px);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .instruction-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .insurance-buttons {
+                grid-template-columns: 1fr;
+            }
+
+            .email-content {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .email-address {
+                font-size: 1.2rem;
+                word-break: break-all;
+            }
+
+            .photo-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .welcome-card {
+                padding: 2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header id="header"></header>
+
+    <!-- Hero Section -->
+    <section class="relative pt-36 lg:pt-40 pb-16 flex items-center" style="min-height: 300px;">
+        <div class="absolute inset-0 bg-gradient-to-r from-[#1a1a2e]/90 to-[#1a1a2e]/70"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 w-full">
+            <div class="max-w-3xl">
+                <div class="breadcrumb mb-4">
+                    <a href="/">Home</a>
+                    <span class="text-white/50">/</span>
+                    <a href="/client-services">Client Services</a>
+                    <span class="text-white/50">/</span>
+                    <span class="text-white font-medium">Work Order Request</span>
+                </div>
+
+                <h1 class="text-3xl md:text-5xl lg:text-7xl font-bold text-white leading-tight">
+                    Work Order <span class="gradient-text">Request</span>
+                </h1>
+                <p class="text-xl text-white/80 mt-4 max-w-2xl">
+                    Submit your work order and project details for prompt attention.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="py-16 bg-white">
+        <div class="max-w-5xl mx-auto px-6 lg:px-8">
+
+            <!-- Welcome Card -->
+            <div class="welcome-card">
+                <div class="relative z-10">
+                    <div class="flex items-center gap-4 mb-6">
+                        <div class="w-16 h-16 bg-[#F26727]/10 rounded-2xl flex items-center justify-center">
+                            <i class="ri-hand-heart-line text-3xl text-[#F26727]"></i>
+                        </div>
+                        <h2 class="text-3xl font-bold text-[#1a1a2e]">Welcome to the Jim's Hazardous Material Removal (Auburn) Family</h2>
+                    </div>
+                    <p class="text-xl text-gray-700 leading-relaxed">
+                        Thank you for selecting Jim's Hazardous Material Removal (Auburn), we welcome you to our growing
+                        list of valued clients and look forward to assisting you with your project.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Instruction Steps -->
+            <div class="instruction-grid">
+                <div class="instruction-card">
+                    <span class="step-number">01</span>
+                    <div class="instruction-icon">
+                        <i class="ri-mail-send-line"></i>
+                    </div>
+                    <h3>Email Your Work Order</h3>
+                    <p>Send us your Work Order or Quotation Request and it will be attended to promptly by our team.</p>
+                </div>
+                <div class="instruction-card">
+                    <span class="step-number">02</span>
+                    <div class="instruction-icon">
+                        <i class="ri-camera-line"></i>
+                    </div>
+                    <h3>Attach Photos</h3>
+                    <p>If you have any photos of the issues please attach them - this helps us assess the situation
+                        accurately.</p>
+                </div>
+                <div class="instruction-card">
+                    <span class="step-number">03</span>
+                    <div class="instruction-icon">
+                        <i class="ri-file-text-line"></i>
+                    </div>
+                    <h3>Provide Details</h3>
+                    <p>Include a brief or detailed description of the issue and any other instructions for our team.</p>
+                </div>
+            </div>
+
+            <!-- Email Card -->
+            <div class="email-card">
+                <div class="email-content">
+
+                    <!-- Clickable Icon -->
+                    <a href="mailto:auburn@jimshazmatremoval.com.au" class="email-icon">
+                        <i class="ri-mail-line"></i>
+                    </a>
+
+                    <!-- Clickable Email Address -->
+                    <a href="mailto:auburn@jimshazmatremoval.com.au" class="email-address">
+                        <i class="ri-mail-send-line"></i>
+                        <span>auburn@jimshazmatremoval.com.au</span>
+                    </a>
+
+                    <!-- Response Text -->
+                    <div class="text-white/70 text-sm">
+                        <i class="ri-time-line"></i> Response within 2-4 hours
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <!-- Insurance Documents Section -->
+            <div class="insurance-section">
+                <div class="flex items-center gap-3 mb-8">
+                    <div class="w-12 h-12 bg-[#F26727]/10 rounded-full flex items-center justify-center">
+                        <i class="ri-shield-check-line text-2xl text-[#F26727]"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-[#1a1a2e]">Insurance Documentation</h3>
+                        <p class="text-gray-500">Click the buttons below to download PDFs of our insurance certificates
+                        </p>
+                    </div>
+                </div>
+
+                <div class="insurance-buttons">
+                    <!-- Workers Comp -->
+                    <div class="insurance-btn">
+                        <i class="ri-umbrella-line"></i>
+                        <h4>Workers Compensation</h4>
+                        <p>Certificate of Currency</p>
+                        <a href="#" class="download-btn">
+                            <i class="ri-file-pdf-line"></i>
+                            Download PDF
+                        </a>
+                    </div>
+
+                    <!-- General Liability -->
+                    <div class="insurance-btn">
+                        <i class="ri-shield-line"></i>
+                        <h4>General & Business Liability</h4>
+                        <p>Certificate of Currency</p>
+                        <a href="#" class="download-btn">
+                            <i class="ri-file-pdf-line"></i>
+                            Download PDF
+                        </a>
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-2 text-sm text-gray-400 mt-6 justify-center">
+                    <i class="ri-lock-line"></i>
+                    <span>All documents are certified and up to date</span>
+                </div>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="text-center mt-12">
+                <a href="quote.php">
+                    <button class="submit-btn">
+                        <i class="ri-mail-send-line"></i>
+                        Submit Work Order Request
+                    </button>
+                </a>
+                <p class="text-sm text-gray-400 mt-4">We'll confirm receipt within 2-4 hours during business days</p>
+            </div>
+
+            <!-- Additional Info -->
+            <div class="mt-16 p-6 bg-gray-50 rounded-2xl border border-gray-200">
+                <div class="flex items-start gap-4">
+                    <i class="ri-customer-service-2-line text-2xl text-[#F26727]"></i>
+                    <div>
+                        <h4 class="font-semibold text-[#1a1a2e] mb-2">Need immediate assistance?</h4>
+                        <p class="text-gray-600">For urgent matters, please call our 24/7 emergency line: <a
+                                href="tel:0435558133" class="text-[#F26727] font-semibold hover:underline">0435 558
+                                133</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer"> </footer>
+
+    <script src="./assets/js/component.js"></script>
+    <script src="./assets/js/custom.js"></script>
+</body>
+
+</html>

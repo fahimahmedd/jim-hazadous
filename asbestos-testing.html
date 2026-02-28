@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asbestos Testing | Jim's Hazardous Material Removal (Auburn)</title>
+
+    <meta name="title" content="Jim's Hazardous Material Removal (Auburn) | Asbestos & Mould Remediation Experts">
+    <meta name="description" content="Professional asbestos removal, mould remediation, and hazardous material cleanup in NSW, ACT & QLD. Licensed experts with 15+ years experience. Free quotes & 24/7 emergency service. Call 0435 558 133.">
+    <meta name="keywords" content="asbestos removal, mould remediation, hazardous material removal, asbestos testing, meth lab cleanup, fire restoration, Auburn, Sydney, NSW, ACT, QLD">
+    <meta name="author" content="Jim's Hazardous Material Removal (Auburn)">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jimshazardousmaterialsafetyremoval.com.au/">
+    <meta property="og:title" content="Jim's Hazardous Material Removal (Auburn) | Asbestos & Mould Experts">
+    <meta property="og:description" content="Professional asbestos removal, mould remediation, and hazardous material cleanup in NSW, ACT & QLD. Licensed experts with 7+ years experience. Free quotes & 24/7 emergency service.">
+    <meta property="og:image" content="https://jimshazardousmaterialsafetyremoval.com.au/assets/images/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="Jim's Hazardous Material Removal (Auburn)">
+    <meta property="og:locale" content="en_AU">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://jimshazardousmaterialsafetyremoval.com.au/">
+    <meta property="twitter:title" content="Jim's Hazardous Material Removal (Auburn) | Asbestos & Mould Experts">
+    <meta property="twitter:description" content="Professional asbestos removal, mould remediation, and hazardous material cleanup in NSW, ACT & QLD. Licensed experts with 7+ years experience. Free quotes & 24/7 emergency service.">
+    <meta property="twitter:image" content="https://jimshazardousmaterialsafetyremoval.com.au/assets/images/twitter-image.jpg">
+
+    <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/x-icon">
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        :root {
+            --primary: #F26727;
+            --primary-dark: #d95620;
+            --primary-light: #fff0e6;
+            --primary-soft: #fff6f0;
+            --dark: #1a1a2e;
+            --light: #ffffff;
+            --gray-bg: #f8f9fa;
+        }
+
+        .gradient-text {
+            background: linear-gradient(135deg, #F26727 0%, #ff8a50 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        /* Breadcrumb */
+        .breadcrumb {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 0.9rem;
+        }
+
+        .breadcrumb a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .breadcrumb a:hover {
+            color: var(--primary);
+        }
+
+        /* Service List with Primary Color Sidebar */
+        .service-section {
+            margin-bottom: 0.75rem;
+        }
+
+        .service-main {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.9rem 1rem;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            font-weight: 600;
+            color: white;
+            margin-bottom: 0.25rem;
+            transition: all 0.3s;
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .service-main i {
+            color: rgba(255, 255, 255, 0.8);
+            transition: transform 0.3s;
+        }
+
+        .service-main:hover {
+            background: rgba(255, 255, 255, 0.2);
+            border-color: rgba(255, 255, 255, 0.3);
+        }
+
+        .service-main:hover i {
+            transform: translateX(5px);
+        }
+
+        .service-sub {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.7rem 1rem 0.7rem 1.2rem;
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 0.95rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s;
+        }
+
+        .service-sub:last-child {
+            border-bottom: none;
+        }
+
+        .service-sub:hover {
+            color: white;
+            background: rgba(255, 255, 255, 0.1);
+            padding-left: 1.5rem;
+        }
+
+        .service-sub i {
+            opacity: 0;
+            transition: all 0.3s;
+            color: white;
+        }
+
+        .service-sub:hover i {
+            opacity: 1;
+            transform: translateX(5px);
+        }
+
+        .active-service {
+            background: rgba(255, 255, 255, 0.15);
+            color: white;
+            border-left: 4px solid white;
+            font-weight: 500;
+        }
+
+        /* Before/After Gallery */
+        .ba-gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .ba-card {
+            position: relative;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+            transition: all 0.5s;
+            aspect-ratio: 1/1;
+        }
+
+        .ba-card:hover {
+            box-shadow: 0 25px 50px rgba(242, 103, 39, 0.2);
+        }
+
+        .ba-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.8s;
+        }
+
+        .ba-card:hover .ba-image {
+            transform: scale(1.05);
+        }
+
+        .ba-badge {
+            position: absolute;
+            top: 1rem;
+            left: 1rem;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(5px);
+            padding: 0.4rem 1rem;
+            border-radius: 30px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            z-index: 2;
+        }
+
+        .ba-badge.before {
+            color: var(--primary);
+            border-left: 3px solid var(--primary);
+        }
+
+        .ba-badge.after {
+            color: #10b981;
+            border-left: 3px solid #10b981;
+        }
+
+        /* Section Styles */
+        .section-title {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--dark);
+            position: relative;
+            display: inline-block;
+            margin-bottom: 1.5rem;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            width: 80px;
+            height: 4px;
+            background: linear-gradient(90deg, var(--primary), #ff8a50);
+            border-radius: 2px;
+        }
+
+        /* Asbestos Features Grid */
+        .asbestos-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .asbestos-card {
+            background: white;
+            padding: 2rem 1.5rem;
+            border-radius: 24px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            border: 1px solid #edf2f7;
+            transition: all 0.3s;
+            text-align: center;
+        }
+
+        .asbestos-card:hover {
+            border-color: var(--primary);
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(242, 103, 39, 0.1);
+        }
+
+        .asbestos-icon {
+            width: 70px;
+            height: 70px;
+            background: rgba(242, 103, 39, 0.1);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1.5rem;
+        }
+
+        .asbestos-icon i {
+            font-size: 2.2rem;
+            color: var(--primary);
+        }
+
+        /* Safety Protocols */
+        .protocol-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .protocol-item {
+            display: flex;
+            gap: 1rem;
+            padding: 1.5rem;
+            background: white;
+            border-radius: 20px;
+            border: 1px solid #edf2f7;
+            transition: all 0.3s;
+        }
+
+        .protocol-item:hover {
+            border-color: var(--primary);
+            box-shadow: 0 10px 30px rgba(242, 103, 39, 0.1);
+        }
+
+        .protocol-icon {
+            width: 50px;
+            height: 50px;
+            background: rgba(242, 103, 39, 0.1);
+            border-radius: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .protocol-icon i {
+            font-size: 1.5rem;
+            color: var(--primary);
+        }
+
+        /* Asbestos Types */
+        .type-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+
+        .type-item {
+            background: white;
+            padding: 1rem;
+            border-radius: 16px;
+            border: 1px solid #edf2f7;
+            text-align: center;
+        }
+
+        .type-item span {
+            font-weight: 500;
+            font-size: 0.9rem;
+            color: var(--dark);
+        }
+
+        .type-item small {
+            display: block;
+            font-size: 0.7rem;
+            color: #6c757d;
+            margin-top: 0.25rem;
+        }
+
+     
+        /* Responsive */
+        @media (max-width: 768px) {
+            .ba-gallery {
+                grid-template-columns: 1fr;
+            }
+
+            .asbestos-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .protocol-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .type-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header"></header>
+
+<!-- Hero Section -->
+ <section class="relative pt-36 lg:pt-40 pb-16 flex items-center"
+        style="min-height: 400px; ">
+        <div class="absolute inset-0 bg-gradient-to-r from-[#1a1a2e]/90 to-[#1a1a2e]/70"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
+
+    <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 w-full">
+        <div class="max-w-3xl">
+            <div class="breadcrumb mb-4">
+                <a href="/">Home</a>
+                <span class="text-white/50">/</span>
+                <a href="/services">Services</a>
+                <span class="text-white/50">/</span>
+                <a href="/asbestos-services">Asbestos Services</a>
+                <span class="text-white/50">/</span>
+                <span class="text-white font-medium">Asbestos Testing</span>
+            </div>
+
+            <h1 class="text-3xl md:text-5xl lg:text-7xl font-bold text-white leading-tight">
+                Asbestos <span class="gradient-text">Testing</span>
+            </h1>
+            <p class="text-xl text-white/80 mt-4 max-w-2xl">
+                Professional asbestos testing by licensed assessors with NATA approved laboratory analysis.
+            </p>
+
+            <div class="flex flex-wrap gap-6 mt-8">
+                <div class="flex items-center gap-2 text-white/80">
+                    <i class="ri-shield-check-line text-[#F26727]"></i>
+                    <span class="text-sm">Licensed Assessors</span>
+                </div>
+                <div class="flex items-center gap-2 text-white/80">
+                    <i class="ri-flask-line text-[#F26727]"></i>
+                    <span class="text-sm">NATA Accredited Lab</span>
+                </div>
+                <div class="flex items-center gap-2 text-white/80">
+                    <i class="ri-file-list-3-line text-[#F26727]"></i>
+                    <span class="text-sm">Detailed Reports</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Main Content -->
+<section class="py-10 md:py-12 bg-white">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+        <div class="grid lg:grid-cols-12 gap-12">
+
+            <!-- LEFT COLUMN - Main Content -->
+            <div class="lg:col-span-8">
+                <!-- Introduction -->
+                <div class="relative max-w-3xl">
+                    <div class="absolute -left-4 top-0 w-1 h-16 bg-gradient-to-b from-[#F26727] to-transparent"></div>
+                    <p class="text-xl text-gray-700 leading-relaxed pl-4">
+                        Working out what needs to be removed and when is the first major step in identifying asbestos containing materials around the home or place of work. A visual inspection of the presence of asbestos containing materials is conducted by Jim's Hazardous Material Removal specialists.
+                    </p>
+                </div>
+
+                <!-- Main Content -->
+                <div class="mt-8 space-y-6">
+                    <p class="text-gray-600 leading-relaxed">
+                        Jim's Hazardous Materials manages the asbestos testing process on your behalf in conjunction with a NATA approved laboratory. Professional testing undertaken by licensed asbestos assessors is the best and safest way to determine whether or not a property contains asbestos materials.
+                    </p>
+                    
+                    <div class="bg-[#F26727]/5 rounded-2xl p-8 border-l-4 border-[#F26727] my-8">
+                        <p class="text-gray-700 text-lg italic">
+                            "Professional testing undertaken by licensed asbestos assessors is the best and safest way to determine whether or not a property contains asbestos materials."
+                        </p>
+                    </div>
+
+                    <h2 class="text-2xl font-bold text-[#1a1a2e] mt-8 mb-4">Our Testing Process</h2>
+                    
+                    <div class="grid gap-6">
+                        <div class="flex gap-4">
+                            <div class="w-10 h-10 bg-[#F26727]/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <span class="font-bold text-[#F26727]">01</span>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-lg text-[#1a1a2e]">Visual Inspection</h3>
+                                <p class="text-gray-600">Comprehensive assessment of suspected asbestos-containing materials throughout the property.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4">
+                            <div class="w-10 h-10 bg-[#F26727]/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <span class="font-bold text-[#F26727]">02</span>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-lg text-[#1a1a2e]">Sample Collection</h3>
+                                <p class="text-gray-600">Careful sampling of suspected materials by licensed assessors following strict safety protocols.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4">
+                            <div class="w-10 h-10 bg-[#F26727]/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <span class="font-bold text-[#F26727]">03</span>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-lg text-[#1a1a2e]">Laboratory Analysis</h3>
+                                <p class="text-gray-600">Samples sent to NATA approved laboratory for definitive identification.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4">
+                            <div class="w-10 h-10 bg-[#F26727]/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <span class="font-bold text-[#F26727]">04</span>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-lg text-[#1a1a2e]">Detailed Report</h3>
+                                <p class="text-gray-600">Comprehensive findings with recommendations for remediation if required.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Key Benefits -->
+                    <div class="mt-12">
+                        <h2 class="text-2xl font-bold text-[#1a1a2e] mb-6">Why Choose Our Testing Service?</h2>
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <div class="flex items-start gap-3 p-4 bg-gray-50 rounded-xl">
+                                <i class="ri-shield-check-line text-[#F26727] text-xl"></i>
+                                <div>
+                                    <h4 class="font-semibold">Licensed Assessors</h4>
+                                    <p class="text-sm text-gray-500">All testing by certified professionals</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-3 p-4 bg-gray-50 rounded-xl">
+                                <i class="ri-flask-line text-[#F26727] text-xl"></i>
+                                <div>
+                                    <h4 class="font-semibold">NATA Approved Lab</h4>
+                                    <p class="text-sm text-gray-500">Accredited analysis for reliable results</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-3 p-4 bg-gray-50 rounded-xl">
+                                <i class="ri-time-line text-[#F26727] text-xl"></i>
+                                <div>
+                                    <h4 class="font-semibold">Quick Turnaround</h4>
+                                    <p class="text-sm text-gray-500">Results within 3-5 business days</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-3 p-4 bg-gray-50 rounded-xl">
+                                <i class="ri-file-copy-line text-[#F26727] text-xl"></i>
+                                <div>
+                                    <h4 class="font-semibold">Clear Reports</h4>
+                                    <p class="text-sm text-gray-500">Easy-to-understand documentation</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RIGHT COLUMN - Complete Sidebar (Same as Mould Page) -->
+           
+
+
+             <!-- RIGHT COLUMN - Primary Color Sidebar -->
+                <div class="lg:col-span-4">
+                        <div id="service-sidebar"></div>
+                </div>
+        </div>
+    </div>
+</section>
+
+    <footer id="footer"> </footer>
+
+    <script src="./assets/js/component.js"></script>
+    <script src="./assets/js/custom.js"></script>
+</body>
+
+</html>

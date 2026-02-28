@@ -1,0 +1,1272 @@
+[22-Feb-2026 08:48:29 UTC] Form submitted - POST data: Array
+(
+    [_subject] => New Quote Request - Jim's Hazardous Material Removal (Auburn) Website
+    [_template] => table
+    [_captcha] => false
+    [_next] => https://yourwebsite.com/thank-you.html
+    [_autoresponse] => Thank you for contacting Jim's Hazardous Material Removal (Auburn). We have received your quote request and will get back to you within 24 hours.
+    [service_selected] => Asbestos Removal
+    [quotePreference] => Mould Treatment - Get a Quote
+    [asbestosPreference] => Asbestos Removal - Testing Only
+    [first_name] => Damian
+    [last_name] => Peterson
+    [phone] => +1 (934) 953-4926
+    [email] => fahimahmed01568@gmail.com
+    [address] => Similique ea ex repe
+    [suburb] => Sunt et ea ipsum si
+    [occupantType] => Owner
+    [mould_rooms] => 1
+    [mould_cause] => Yes
+    [mould_description] => 
+    [mould_additional] => 
+    [asbestos_areas] => 1
+    [asbestos_tested] => Yes
+    [asbestos_location] => Array
+        (
+            [0] => Fencing
+            [1] => Flooring / Vinyl
+            [2] => Other
+        )
+
+    [asbestos_description] => Ut corrupti recusan
+    [asbestos_size] => Consectetur quibusda
+    [questions] => Suscipit voluptatem
+)
+
+[22-Feb-2026 08:48:29 UTC] FILES data: Array
+(
+    [photos] => Array
+        (
+            [name] => Array
+                (
+                    [0] => 
+                )
+
+            [full_path] => Array
+                (
+                    [0] => 
+                )
+
+            [type] => Array
+                (
+                    [0] => 
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => 
+                )
+
+            [error] => Array
+                (
+                    [0] => 4
+                )
+
+            [size] => Array
+                (
+                    [0] => 0
+                )
+
+        )
+
+)
+
+[22-Feb-2026 08:54:32 UTC] Form submitted - POST data: Array
+(
+    [_subject] => New Quote Request - Jim's Hazardous Material Removal (Auburn) Website
+    [_template] => table
+    [_captcha] => false
+    [_next] => https://yourwebsite.com/thank-you.html
+    [_autoresponse] => Thank you for contacting Jim's Hazardous Material Removal (Auburn). We have received your quote request and will get back to you within 24 hours.
+    [service_selected] => Mould Treatment
+    [quotePreference] => Mould Treatment - Causation Report
+    [asbestosPreference] => Asbestos Removal - Get a Quote
+    [first_name] => Hollee
+    [last_name] => Colon
+    [phone] => +1 (136) 965-3343
+    [email] => fahimahmed01568@gmail.com
+    [address] => Accusamus dolorem it
+    [suburb] => Necessitatibus sunt 
+    [occupantType] => Property Manager
+    [mould_rooms] => 3
+    [mould_cause] => Yes
+    [mould_location] => Array
+        (
+            [0] => Walls
+        )
+
+    [mould_description] => Nisi quis est est in
+    [mould_additional] => Ullamco magnam numqu
+    [asbestos_areas] => 1
+    [asbestos_tested] => Yes
+    [asbestos_description] => 
+    [asbestos_size] => 
+    [questions] => Aliquip necessitatib
+)
+
+[22-Feb-2026 08:54:32 UTC] FILES data: Array
+(
+    [photos] => Array
+        (
+            [name] => Array
+                (
+                    [0] => 
+                )
+
+            [full_path] => Array
+                (
+                    [0] => 
+                )
+
+            [type] => Array
+                (
+                    [0] => 
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => 
+                )
+
+            [error] => Array
+                (
+                    [0] => 4
+                )
+
+            [size] => Array
+                (
+                    [0] => 0
+                )
+
+        )
+
+)
+
+[22-Feb-2026 08:54:32 UTC] Number of files uploaded: 0
+[22-Feb-2026 09:01:54 UTC] Form submitted - POST data: Array
+(
+    [_subject] => New Quote Request - Jim's Hazardous Material Removal (Auburn) Website
+    [_template] => table
+    [_captcha] => false
+    [_next] => https://yourwebsite.com/thank-you.html
+    [_autoresponse] => Thank you for contacting Jim's Hazardous Material Removal (Auburn). We have received your quote request and will get back to you within 24 hours.
+    [service_selected] => Mould Treatment
+    [quotePreference] => Mould Treatment - Causation Report
+    [asbestosPreference] => Asbestos Removal - Get a Quote
+    [first_name] => Ignacia
+    [last_name] => Dodson
+    [phone] => +1 (147) 384-1475
+    [email] => fahimahmed01568@gmail.com
+    [address] => Magna et et non vel 
+    [suburb] => Autem quis reiciendi
+    [occupantType] => Property Manager
+    [mould_rooms] => 4
+    [mould_cause] => No
+    [mould_location] => Array
+        (
+            [0] => Ceiling
+            [1] => Floor
+            [2] => Windows / Sills
+            [3] => Other
+        )
+
+    [mould_description] => Delectus duis adipi
+    [mould_additional] => Perspiciatis irure 
+    [asbestos_areas] => 1
+    [asbestos_tested] => Yes
+    [asbestos_description] => 
+    [asbestos_size] => 
+    [questions] => Laboris suscipit cup
+)
+
+[22-Feb-2026 09:01:54 UTC] FILES data: Array
+(
+    [photos] => Array
+        (
+            [name] => Array
+                (
+                    [0] => asa.png
+                )
+
+            [full_path] => Array
+                (
+                    [0] => asa.png
+                )
+
+            [type] => Array
+                (
+                    [0] => image/png
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => /tmp/php9JLMbo
+                )
+
+            [error] => Array
+                (
+                    [0] => 0
+                )
+
+            [size] => Array
+                (
+                    [0] => 1754879
+                )
+
+        )
+
+)
+
+[22-Feb-2026 09:01:54 UTC] Number of files uploaded: 1
+[22-Feb-2026 09:17:43 UTC] Form submitted - POST data: Array
+(
+    [_subject] => New Quote Request - Jim's Hazardous Material Removal (Auburn) Website
+    [_template] => table
+    [_captcha] => false
+    [_next] => https://yourwebsite.com/thank-you.html
+    [_autoresponse] => Thank you for contacting Jim's Hazardous Material Removal (Auburn). We have received your quote request and will get back to you within 24 hours.
+    [service_selected] => Asbestos Removal
+    [quotePreference] => Mould Treatment - Get a Quote
+    [asbestosPreference] => Asbestos Removal - Testing Only
+    [first_name] => Robin
+    [last_name] => Todd
+    [phone] => +1 (835) 176-2827
+    [email] => fahimahmed01568@gmail.com
+    [address] => In voluptates velit
+    [suburb] => Non ut sit sint in r
+    [occupantType] => Tenant
+    [mould_rooms] => 1
+    [mould_cause] => Yes
+    [mould_description] => 
+    [mould_additional] => 
+    [asbestos_areas] => 3
+    [asbestos_tested] => No
+    [asbestos_location] => Array
+        (
+            [0] => Roof / Eaves
+            [1] => Wall cladding
+            [2] => Pipe lagging
+        )
+
+    [asbestos_description] => Omnis et eveniet in
+    [asbestos_size] => Optio autem natus v
+    [questions] => Rerum aut animi cul
+)
+
+[22-Feb-2026 09:17:43 UTC] FILES data: Array
+(
+    [photos] => Array
+        (
+            [name] => Array
+                (
+                    [0] => asbesto-2.jpeg
+                    [1] => mold-b-2.jpeg
+                    [2] => asa.png
+                )
+
+            [full_path] => Array
+                (
+                    [0] => asbesto-2.jpeg
+                    [1] => mold-b-2.jpeg
+                    [2] => asa.png
+                )
+
+            [type] => Array
+                (
+                    [0] => image/jpeg
+                    [1] => image/jpeg
+                    [2] => image/png
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => /tmp/phpNeOPhW
+                    [1] => /tmp/php8J2Yzn
+                    [2] => /tmp/phpxvxEUb
+                )
+
+            [error] => Array
+                (
+                    [0] => 0
+                    [1] => 0
+                    [2] => 0
+                )
+
+            [size] => Array
+                (
+                    [0] => 205986
+                    [1] => 345704
+                    [2] => 1754879
+                )
+
+        )
+
+)
+
+[22-Feb-2026 09:17:43 UTC] Number of files uploaded: 3
+[23-Feb-2026 00:12:07 UTC] Form submitted - POST data: Array
+(
+    [_subject] => New Quote Request - Jim's Hazardous Material Removal (Auburn) Website
+    [_template] => table
+    [_captcha] => false
+    [_next] => https://yourwebsite.com/thank-you.html
+    [_autoresponse] => Thank you for contacting Jim's Hazardous Material Removal (Auburn). We have received your quote request and will get back to you within 24 hours.
+    [service_selected] => Mould Treatment
+    [quotePreference] => Mould Treatment - Get a Quote
+    [asbestosPreference] => Asbestos Removal - Get a Quote
+    [first_name] => hello
+    [last_name] => fahi
+    [phone] => 01823103823
+    [email] => fahimlemmesay@gmail.com
+    [address] => Mirpur Dhaka - 1216
+    [suburb] => Dhaka
+    [occupantType] => Tenant
+    [mould_rooms] => 2
+    [mould_cause] => No
+    [mould_location] => Array
+        (
+            [0] => Walls
+            [1] => Other
+        )
+
+    [mould_description] => kahdkahsdd. hehe
+    [mould_additional] => sdhsdhs khskds 
+    [asbestos_areas] => 1
+    [asbestos_tested] => Yes
+    [asbestos_description] => 
+    [asbestos_size] => 
+    [questions] => sdhsdhsd 
+)
+
+[23-Feb-2026 00:12:07 UTC] FILES data: Array
+(
+    [photos] => Array
+        (
+            [name] => Array
+                (
+                    [0] => asa.png
+                )
+
+            [full_path] => Array
+                (
+                    [0] => asa.png
+                )
+
+            [type] => Array
+                (
+                    [0] => image/png
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => /tmp/phpQbu2ff
+                )
+
+            [error] => Array
+                (
+                    [0] => 0
+                )
+
+            [size] => Array
+                (
+                    [0] => 1754879
+                )
+
+        )
+
+)
+
+[23-Feb-2026 00:12:07 UTC] Number of files uploaded: 1
+[23-Feb-2026 00:19:57 UTC] Form submitted - POST data: Array
+(
+    [_subject] => New Quote Request - Jim's Hazardous Material Removal (Auburn) Website
+    [_template] => table
+    [_captcha] => false
+    [_next] => https://yourwebsite.com/thank-you.html
+    [_autoresponse] => Thank you for contacting Jim's Hazardous Material Removal (Auburn). We have received your quote request and will get back to you within 24 hours.
+    [service_selected] => Mould Treatment
+    [quotePreference] => Mould Treatment - Both
+    [asbestosPreference] => Asbestos Removal - Get a Quote
+    [first_name] => Gillian
+    [last_name] => Preston
+    [phone] => +1 (827) 265-7251
+    [email] => fahimlemmesay@gmail.com
+    [address] => In mollitia reiciend
+    [suburb] => Quod voluptas recusa
+    [occupantType] => Strata / Body Corporate
+    [mould_rooms] => 1
+    [mould_cause] => Yes
+    [mould_location] => Array
+        (
+            [0] => Walls
+            [1] => Floor
+        )
+
+    [mould_description] => Inventore vero volup
+    [mould_additional] => Quia consequatur pe
+    [asbestos_areas] => 1
+    [asbestos_tested] => Yes
+    [asbestos_description] => 
+    [asbestos_size] => 
+    [questions] => Et impedit veniam 
+)
+
+[23-Feb-2026 00:19:57 UTC] FILES data: Array
+(
+    [photos] => Array
+        (
+            [name] => Array
+                (
+                    [0] => WhatsApp Image 2025-12-27 at 2.30.31 PM.jpeg
+                )
+
+            [full_path] => Array
+                (
+                    [0] => WhatsApp Image 2025-12-27 at 2.30.31 PM.jpeg
+                )
+
+            [type] => Array
+                (
+                    [0] => image/jpeg
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => /tmp/php6QvHRZ
+                )
+
+            [error] => Array
+                (
+                    [0] => 0
+                )
+
+            [size] => Array
+                (
+                    [0] => 159624
+                )
+
+        )
+
+)
+
+[23-Feb-2026 00:19:57 UTC] Number of files uploaded: 1
+[23-Feb-2026 00:20:26 UTC] Form submitted - POST data: Array
+(
+    [_subject] => New Quote Request - Jim's Hazardous Material Removal (Auburn) Website
+    [_template] => table
+    [_captcha] => false
+    [_next] => https://yourwebsite.com/thank-you.html
+    [_autoresponse] => Thank you for contacting Jim's Hazardous Material Removal (Auburn). We have received your quote request and will get back to you within 24 hours.
+    [service_selected] => Mould Treatment
+    [quotePreference] => Mould Treatment - Get a Quote
+    [asbestosPreference] => Asbestos Removal - Get a Quote
+    [first_name] => Francis
+    [last_name] => Vance
+    [phone] => +1 (644) 321-3291
+    [email] => fahimlemmesay@gmail.com
+    [address] => Doloribus ut non qui
+    [suburb] => Rerum in labore volu
+    [occupantType] => Owner
+    [mould_rooms] => 1
+    [mould_cause] => No
+    [mould_location] => Array
+        (
+            [0] => Ceiling
+            [1] => Furniture
+            [2] => Other
+        )
+
+    [mould_description] => Esse est consequun
+    [mould_additional] => Omnis quod provident
+    [asbestos_areas] => 1
+    [asbestos_tested] => Yes
+    [asbestos_description] => 
+    [asbestos_size] => 
+    [questions] => Ad eos tempora inci
+)
+
+[23-Feb-2026 00:20:26 UTC] FILES data: Array
+(
+    [photos] => Array
+        (
+            [name] => Array
+                (
+                    [0] => WhatsApp Image 2025-12-27 at 2.30.31 PM.jpeg
+                )
+
+            [full_path] => Array
+                (
+                    [0] => WhatsApp Image 2025-12-27 at 2.30.31 PM.jpeg
+                )
+
+            [type] => Array
+                (
+                    [0] => image/jpeg
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => /tmp/phpZbzNnD
+                )
+
+            [error] => Array
+                (
+                    [0] => 0
+                )
+
+            [size] => Array
+                (
+                    [0] => 159624
+                )
+
+        )
+
+)
+
+[23-Feb-2026 00:20:26 UTC] Number of files uploaded: 1
+[23-Feb-2026 00:44:02 UTC] Form submitted - POST data: Array
+(
+    [_subject] => New Quote Request - Jim's Hazardous Material Removal (Auburn) Website
+    [_template] => table
+    [_captcha] => false
+    [_next] => https://yourwebsite.com/thank-you.html
+    [_autoresponse] => Thank you for contacting Jim's Hazardous Material Removal (Auburn). We have received your quote request and will get back to you within 24 hours.
+    [service_selected] => Mould Treatment
+    [quotePreference] => Mould Treatment - Causation Report
+    [asbestosPreference] => Asbestos Removal - Get a Quote
+    [first_name] => Winifred
+    [last_name] => Bernard
+    [phone] => +1 (997) 929-3936
+    [email] => fahimlemmesay@gmail.com
+    [address] => Possimus saepe cons
+    [suburb] => Cupidatat delectus 
+    [occupantType] => Property Manager
+    [mould_rooms] => 1
+    [mould_cause] => Unsure
+    [mould_location] => Array
+        (
+            [0] => Ceiling
+            [1] => Walls
+            [2] => Windows / Sills
+            [3] => Furniture
+        )
+
+    [mould_description] => Cupiditate quo ex se
+    [mould_additional] => Esse odio aut volup
+    [asbestos_areas] => 1
+    [asbestos_tested] => Yes
+    [asbestos_description] => 
+    [asbestos_size] => 
+    [questions] => Deserunt aut omnis e
+)
+
+[23-Feb-2026 00:44:02 UTC] FILES data: Array
+(
+    [photos] => Array
+        (
+            [name] => Array
+                (
+                    [0] => 
+                )
+
+            [full_path] => Array
+                (
+                    [0] => 
+                )
+
+            [type] => Array
+                (
+                    [0] => 
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => 
+                )
+
+            [error] => Array
+                (
+                    [0] => 4
+                )
+
+            [size] => Array
+                (
+                    [0] => 0
+                )
+
+        )
+
+)
+
+[23-Feb-2026 00:44:02 UTC] Number of files uploaded: 0
+[23-Feb-2026 00:52:15 UTC] Form submitted - POST data: Array
+(
+    [_subject] => New Quote Request - Jim's Hazardous Material Removal (Auburn) Website
+    [_template] => table
+    [_captcha] => false
+    [_next] => https://yourwebsite.com/thank-you.html
+    [_autoresponse] => Thank you for contacting Jim's Hazardous Material Removal (Auburn). We have received your quote request and will get back to you within 24 hours.
+    [service_selected] => Mould Treatment
+    [quotePreference] => Mould Treatment - Get a Quote
+    [asbestosPreference] => Asbestos Removal - Get a Quote
+    [first_name] => Kay
+    [last_name] => Cox
+    [phone] => +1 (346) 712-9736
+    [email] => fahimlemmesay@gmail.com
+    [address] => Perspiciatis nulla 
+    [suburb] => Omnis harum aliquid 
+    [occupantType] => Tenant
+    [mould_rooms] => 1
+    [mould_cause] => No
+    [mould_location] => Array
+        (
+            [0] => Ceiling
+            [1] => Other
+        )
+
+    [mould_description] => Dicta fugiat quod ve
+    [mould_additional] => Itaque velit porro a
+    [asbestos_areas] => 1
+    [asbestos_tested] => Yes
+    [asbestos_description] => 
+    [asbestos_size] => 
+    [questions] => Eum et sunt molesti
+)
+
+[23-Feb-2026 00:52:15 UTC] FILES data: Array
+(
+    [photos] => Array
+        (
+            [name] => Array
+                (
+                    [0] => 
+                )
+
+            [full_path] => Array
+                (
+                    [0] => 
+                )
+
+            [type] => Array
+                (
+                    [0] => 
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => 
+                )
+
+            [error] => Array
+                (
+                    [0] => 4
+                )
+
+            [size] => Array
+                (
+                    [0] => 0
+                )
+
+        )
+
+)
+
+[23-Feb-2026 00:52:15 UTC] Number of files uploaded: 0
+[23-Feb-2026 00:52:15 UTC] PHP Warning:  Undefined variable $first_name in /home/liberat3/public_html/hello.liberationlinksolution.com/submit-form.php on line 737
+[23-Feb-2026 00:52:15 UTC] PHP Warning:  Undefined variable $last_name in /home/liberat3/public_html/hello.liberationlinksolution.com/submit-form.php on line 737
+[23-Feb-2026 00:52:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/liberat3/public_html/hello.liberationlinksolution.com/submit-form.php:737) in /home/liberat3/public_html/hello.liberationlinksolution.com/submit-form.php on line 754
+[23-Feb-2026 00:52:49 UTC] Form submitted - POST data: Array
+(
+    [_subject] => New Quote Request - Jim's Hazardous Material Removal (Auburn) Website
+    [_template] => table
+    [_captcha] => false
+    [_next] => https://yourwebsite.com/thank-you.html
+    [_autoresponse] => Thank you for contacting Jim's Hazardous Material Removal (Auburn). We have received your quote request and will get back to you within 24 hours.
+    [service_selected] => Mould Treatment
+    [quotePreference] => Mould Treatment - Both
+    [asbestosPreference] => Asbestos Removal - Get a Quote
+    [first_name] => Chancellor
+    [last_name] => Fletcher
+    [phone] => +1 (388) 666-5072
+    [email] => fahimlemmesay@gmail.com
+    [address] => Et consequat Elit 
+    [suburb] => Tempora libero eius 
+    [occupantType] => Owner
+    [mould_rooms] => 1
+    [mould_cause] => Yes
+    [mould_location] => Array
+        (
+            [0] => Ceiling
+            [1] => Walls
+            [2] => Furniture
+        )
+
+    [mould_description] => Nisi voluptate do qu
+    [mould_additional] => Ut et id sunt nemo 
+    [asbestos_areas] => 1
+    [asbestos_tested] => Yes
+    [asbestos_description] => 
+    [asbestos_size] => 
+    [questions] => Enim enim ipsum do e
+)
+
+[23-Feb-2026 00:52:49 UTC] FILES data: Array
+(
+    [photos] => Array
+        (
+            [name] => Array
+                (
+                    [0] => 
+                )
+
+            [full_path] => Array
+                (
+                    [0] => 
+                )
+
+            [type] => Array
+                (
+                    [0] => 
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => 
+                )
+
+            [error] => Array
+                (
+                    [0] => 4
+                )
+
+            [size] => Array
+                (
+                    [0] => 0
+                )
+
+        )
+
+)
+
+[23-Feb-2026 00:52:49 UTC] Number of files uploaded: 0
+[23-Feb-2026 00:54:34 UTC] Form submitted - POST data: Array
+(
+    [_subject] => New Quote Request - Jim's Hazardous Material Removal (Auburn) Website
+    [_template] => table
+    [_captcha] => false
+    [_next] => https://yourwebsite.com/thank-you.html
+    [_autoresponse] => Thank you for contacting Jim's Hazardous Material Removal (Auburn). We have received your quote request and will get back to you within 24 hours.
+    [service_selected] => Asbestos Removal
+    [quotePreference] => Mould Treatment - Get a Quote
+    [asbestosPreference] => Asbestos Removal - Testing Only
+    [first_name] => Nathan
+    [last_name] => Workman
+    [phone] => +1 (825) 138-8474
+    [email] => depe@mailinator.com
+    [address] => Omnis enim quia et v
+    [suburb] => Quia eaque ipsum do
+    [occupantType] => Property Manager
+    [mould_rooms] => 1
+    [mould_cause] => Yes
+    [mould_description] => 
+    [mould_additional] => 
+    [asbestos_areas] => 1
+    [asbestos_tested] => Unsure / Waiting for results
+    [asbestos_location] => Array
+        (
+            [0] => Pipe lagging
+        )
+
+    [asbestos_description] => Quis perferendis qui
+    [asbestos_size] => Commodi iusto sunt 
+    [questions] => Eos repellendus Ei
+)
+
+[23-Feb-2026 00:54:34 UTC] FILES data: Array
+(
+    [photos] => Array
+        (
+            [name] => Array
+                (
+                    [0] => 
+                )
+
+            [full_path] => Array
+                (
+                    [0] => 
+                )
+
+            [type] => Array
+                (
+                    [0] => 
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => 
+                )
+
+            [error] => Array
+                (
+                    [0] => 4
+                )
+
+            [size] => Array
+                (
+                    [0] => 0
+                )
+
+        )
+
+)
+
+[23-Feb-2026 00:54:34 UTC] Number of files uploaded: 0
+[23-Feb-2026 01:05:44 UTC] Form submitted - POST data: Array
+(
+    [_subject] => New Quote Request - Jim's Hazardous Material Removal (Auburn) Website
+    [_template] => table
+    [_captcha] => false
+    [_next] => https://yourwebsite.com/thank-you.html
+    [_autoresponse] => Thank you for contacting Jim's Hazardous Material Removal (Auburn). We have received your quote request and will get back to you within 24 hours.
+    [service_selected] => Mould Treatment
+    [quotePreference] => Mould Treatment - Causation Report
+    [asbestosPreference] => Asbestos Removal - Get a Quote
+    [first_name] => Helen
+    [last_name] => Tate
+    [phone] => +1 (501) 176-8713
+    [email] => dibasic@mailinator.com
+    [address] => Consequatur repellen
+    [suburb] => Magna quis quaerat l
+    [occupantType] => Strata / Body Corporate
+    [mould_rooms] => 1
+    [mould_cause] => Yes
+    [mould_location] => Array
+        (
+            [0] => Ceiling
+            [1] => Furniture
+            [2] => Other
+        )
+
+    [mould_description] => Sunt eum qui volupta
+    [mould_additional] => Labore et et minus e
+    [asbestos_areas] => 1
+    [asbestos_tested] => Yes
+    [asbestos_description] => 
+    [asbestos_size] => 
+    [questions] => Incididunt non excep
+)
+
+[23-Feb-2026 01:05:44 UTC] FILES data: Array
+(
+    [photos] => Array
+        (
+            [name] => Array
+                (
+                    [0] => 
+                )
+
+            [full_path] => Array
+                (
+                    [0] => 
+                )
+
+            [type] => Array
+                (
+                    [0] => 
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => 
+                )
+
+            [error] => Array
+                (
+                    [0] => 4
+                )
+
+            [size] => Array
+                (
+                    [0] => 0
+                )
+
+        )
+
+)
+
+[23-Feb-2026 01:05:44 UTC] Number of files uploaded: 0
+[23-Feb-2026 13:02:02 UTC] Form submitted - POST data: Array
+(
+    [_subject] => New Quote Request - Jim's Hazardous Material Removal (Auburn) Website
+    [_template] => table
+    [_captcha] => false
+    [_next] => https://yourwebsite.com/thank-you.html
+    [_autoresponse] => Thank you for contacting Jim's Hazardous Material Removal (Auburn). We have received your quote request and will get back to you within 24 hours.
+    [service_selected] => Mould Treatment
+    [quotePreference] => Mould Treatment - Causation Report
+    [asbestosPreference] => Asbestos Removal - Get a Quote
+    [first_name] => Fahin
+    [last_name] => Bhai
+    [phone] => 01821921933
+    [email] => fahindsh@gnail.con
+    [address] => Kalsi
+    [suburb] => hel
+    [occupantType] => Owner
+    [mould_rooms] => 4
+    [mould_cause] => Yes
+    [mould_location] => Array
+        (
+            [0] => Walls
+        )
+
+    [mould_description] => dhskd
+    [mould_additional] => kdhkfdhdf
+    [asbestos_areas] => 1
+    [asbestos_tested] => Yes
+    [asbestos_description] => 
+    [asbestos_size] => 
+    [questions] => skdhskd
+)
+
+[23-Feb-2026 13:02:02 UTC] FILES data: Array
+(
+    [photos] => Array
+        (
+            [name] => Array
+                (
+                    [0] => Screenshot 2026-02-23 at 2.05.35 PM.png
+                )
+
+            [full_path] => Array
+                (
+                    [0] => Screenshot 2026-02-23 at 2.05.35 PM.png
+                )
+
+            [type] => Array
+                (
+                    [0] => image/png
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => /tmp/phpm5oKwa
+                )
+
+            [error] => Array
+                (
+                    [0] => 0
+                )
+
+            [size] => Array
+                (
+                    [0] => 243639
+                )
+
+        )
+
+)
+
+[23-Feb-2026 13:02:02 UTC] Number of files uploaded: 1
+[23-Feb-2026 13:30:05 UTC] Form submitted - POST data: Array
+(
+    [_subject] => New Quote Request - Jim's Hazardous Material Removal (Auburn) Website
+    [_template] => table
+    [_captcha] => false
+    [_next] => https://yourwebsite.com/thank-you.html
+    [_autoresponse] => Thank you for contacting Jim's Hazardous Material Removal (Auburn). We have received your quote request and will get back to you within 24 hours.
+    [service_selected] => Mould Treatment
+    [quotePreference] => Mould Treatment - Both
+    [asbestosPreference] => Asbestos Removal - Get a Quote
+    [first_name] => Winifred
+    [last_name] => Armstrong
+    [phone] => +1 (185) 276-5975
+    [email] => wanicaza@mailinator.com
+    [address] => Non saepe pariatur 
+    [suburb] => Est consectetur il
+    [occupantType] => Owner
+    [mould_rooms] => 1
+    [mould_cause] => Yes
+    [mould_location] => Array
+        (
+            [0] => Ceiling
+            [1] => Walls
+            [2] => Floor
+            [3] => Furniture
+            [4] => Other
+        )
+
+    [mould_description] => Animi quis sint exp
+    [mould_additional] => Ipsum dolorem odit 
+    [asbestos_areas] => 1
+    [asbestos_tested] => Yes
+    [asbestos_description] => 
+    [asbestos_size] => 
+    [questions] => Qui optio magna acc
+)
+
+[23-Feb-2026 13:30:05 UTC] FILES data: Array
+(
+    [photos] => Array
+        (
+            [name] => Array
+                (
+                    [0] => 
+                )
+
+            [full_path] => Array
+                (
+                    [0] => 
+                )
+
+            [type] => Array
+                (
+                    [0] => 
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => 
+                )
+
+            [error] => Array
+                (
+                    [0] => 4
+                )
+
+            [size] => Array
+                (
+                    [0] => 0
+                )
+
+        )
+
+)
+
+[23-Feb-2026 13:30:05 UTC] Number of files uploaded: 0
+[23-Feb-2026 13:36:59 UTC] Form submitted - POST data: Array
+(
+    [_subject] => New Quote Request - Jim's Hazardous Material Removal (Auburn) Website
+    [_template] => table
+    [_captcha] => false
+    [_next] => https://yourwebsite.com/thank-you.html
+    [_autoresponse] => Thank you for contacting Jim's Hazardous Material Removal (Auburn). We have received your quote request and will get back to you within 24 hours.
+    [service_selected] => Mould Treatment
+    [quotePreference] => Mould Treatment - Causation Report
+    [asbestosPreference] => Asbestos Removal - Get a Quote
+    [first_name] => Jonas
+    [last_name] => Russell
+    [phone] => +1 (185) 486-6759
+    [email] => cuhi@mailinator.com
+    [address] => Dolorem perspiciatis
+    [suburb] => Qui iure quo non lau
+    [occupantType] => Tenant
+    [mould_rooms] => 1
+    [mould_cause] => Yes
+    [mould_location] => Array
+        (
+            [0] => Walls
+            [1] => Windows / Sills
+            [2] => Other
+        )
+
+    [mould_description] => Soluta vel non harum
+    [mould_additional] => Voluptate perferendi
+    [asbestos_areas] => 1
+    [asbestos_tested] => Yes
+    [asbestos_description] => 
+    [asbestos_size] => 
+    [questions] => Harum consectetur be
+)
+
+[23-Feb-2026 13:36:59 UTC] FILES data: Array
+(
+    [photos] => Array
+        (
+            [name] => Array
+                (
+                    [0] => 
+                )
+
+            [full_path] => Array
+                (
+                    [0] => 
+                )
+
+            [type] => Array
+                (
+                    [0] => 
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => 
+                )
+
+            [error] => Array
+                (
+                    [0] => 4
+                )
+
+            [size] => Array
+                (
+                    [0] => 0
+                )
+
+        )
+
+)
+
+[23-Feb-2026 13:36:59 UTC] Number of files uploaded: 0
+[23-Feb-2026 13:45:52 UTC] Form submitted - POST data: Array
+(
+    [_subject] => New Quote Request - Jim's Hazardous Material Removal (Auburn) Website
+    [_template] => table
+    [_captcha] => false
+    [_next] => https://yourwebsite.com/thank-you.html
+    [_autoresponse] => Thank you for contacting Jim's Hazardous Material Removal (Auburn). We have received your quote request and will get back to you within 24 hours.
+    [service_selected] => Asbestos Removal
+    [quotePreference] => Mould Treatment - Get a Quote
+    [asbestosPreference] => Asbestos Removal - Get a Quote
+    [first_name] => Keiko
+    [last_name] => Riggs
+    [phone] => +1 (966) 956-5307
+    [email] => hegyfeqi@mailinator.com
+    [address] => Non officiis atque c
+    [suburb] => Consequatur In mole
+    [occupantType] => Strata / Body Corporate
+    [mould_rooms] => 1
+    [mould_cause] => Yes
+    [mould_description] => 
+    [mould_additional] => 
+    [asbestos_areas] => 1
+    [asbestos_tested] => Yes
+    [asbestos_location] => Array
+        (
+            [0] => Roof / Eaves
+            [1] => Wall cladding
+            [2] => Flooring / Vinyl
+            [3] => Pipe lagging
+        )
+
+    [asbestos_description] => Est sit rerum praes
+    [asbestos_size] => Ad non est aliquip d
+    [questions] => Corrupti dolore dol
+)
+
+[23-Feb-2026 13:45:52 UTC] FILES data: Array
+(
+    [photos] => Array
+        (
+            [name] => Array
+                (
+                    [0] => asbesto-r-1.jpeg
+                )
+
+            [full_path] => Array
+                (
+                    [0] => asbesto-r-1.jpeg
+                )
+
+            [type] => Array
+                (
+                    [0] => image/jpeg
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => /tmp/phpvX6Y8E
+                )
+
+            [error] => Array
+                (
+                    [0] => 0
+                )
+
+            [size] => Array
+                (
+                    [0] => 135094
+                )
+
+        )
+
+)
+
+[23-Feb-2026 13:45:52 UTC] Number of files uploaded: 1
+[23-Feb-2026 17:13:09 UTC] Form submitted - POST data: Array
+(
+    [_subject] => New Quote Request - Jim's Hazardous Material Removal (Auburn) Website
+    [_template] => table
+    [_captcha] => false
+    [_next] => https://yourwebsite.com/thank-you.html
+    [_autoresponse] => Thank you for contacting Jim's Hazardous Material Removal (Auburn). We have received your quote request and will get back to you within 24 hours.
+    [service_selected] => Mould Treatment
+    [quotePreference] => Mould Treatment - Get a Quote
+    [asbestosPreference] => Asbestos Removal - Get a Quote
+    [first_name] => Fahim
+    [last_name] => Ahmed
+    [phone] => 01568282893
+    [email] => fahimicircles@gmail.com
+    [address] => Mirpur Dhaka - 1216
+    [suburb] => Dhaka
+    [occupantType] => Owner
+    [mould_rooms] => 1
+    [mould_cause] => Yes
+    [mould_location] => Array
+        (
+            [0] => Walls
+        )
+
+    [mould_description] => Hello 1234
+    [mould_additional] => 
+    [asbestos_areas] => 1
+    [asbestos_tested] => Yes
+    [asbestos_description] => 
+    [asbestos_size] => 
+    [questions] => 
+)
+
+[23-Feb-2026 17:13:09 UTC] FILES data: Array
+(
+    [photos] => Array
+        (
+            [name] => Array
+                (
+                    [0] => asbesto-2.jpeg
+                    [1] => asbesto-3.jpeg
+                )
+
+            [full_path] => Array
+                (
+                    [0] => asbesto-2.jpeg
+                    [1] => asbesto-3.jpeg
+                )
+
+            [type] => Array
+                (
+                    [0] => image/jpeg
+                    [1] => image/jpeg
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => /tmp/phpdd3uOx
+                    [1] => /tmp/phpHdK9WN
+                )
+
+            [error] => Array
+                (
+                    [0] => 0
+                    [1] => 0
+                )
+
+            [size] => Array
+                (
+                    [0] => 205986
+                    [1] => 110108
+                )
+
+        )
+
+)
+
+[23-Feb-2026 17:13:09 UTC] Number of files uploaded: 2

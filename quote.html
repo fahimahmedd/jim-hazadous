@@ -1,0 +1,1065 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get a Free Quote | Jim's Hazardous Material Removal (Auburn)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        :root {
+            --primary: #F26727;
+            --primary-dark: #d95620;
+            --dark: #1a1a2e;
+            --light: #ffffff;
+            --gray-light: #f8fafc;
+            --gray-border: #e2e8f0;
+        }
+
+
+        .gradient-text {
+            background: linear-gradient(135deg, #F26727 0%, #ff8a50 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        /* Professional Quote Form */
+        .quote-card {
+            background: white;
+            border-radius: 32px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
+            overflow: hidden;
+            border: 1px solid rgba(242, 103, 39, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .quote-header {
+            background: linear-gradient(135deg, var(--dark), #2d2d44);
+            padding: 2rem 2.5rem;
+            color: white;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .service-selector {
+            background: white;
+            border-radius: 60px;
+            padding: 0.5rem;
+            display: inline-flex;
+            gap: 0.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .service-option {
+            padding: 0.75rem 2rem;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s;
+            border: none;
+            background: transparent;
+            color: var(--dark);
+        }
+
+        .service-option.active {
+            background: var(--primary);
+            color: white;
+            box-shadow: 0 10px 20px -5px rgba(242, 103, 39, 0.3);
+        }
+
+        .form-body {
+            padding: 2.5rem;
+        }
+
+        /* Form Sections */
+        .form-section {
+            background: #f8fafc;
+            border-radius: 24px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            border: 1px solid #edf2f7;
+        }
+
+        .section-title {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin-bottom: 1.5rem;
+            font-weight: 600;
+            color: var(--dark);
+            font-size: 1.1rem;
+        }
+
+        .section-title i {
+            color: var(--primary);
+            font-size: 1.3rem;
+        }
+
+        /* Professional Form Elements */
+        .form-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-label {
+            display: block;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--dark);
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.01em;
+        }
+
+        .form-label .required {
+            color: var(--primary);
+            margin-left: 0.25rem;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 0.85rem 1.25rem;
+            border: 1.5px solid var(--gray-border);
+            border-radius: 16px;
+            font-size: 0.95rem;
+            transition: all 0.2s;
+            background: white;
+            color: #1e293b;
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 4px rgba(242, 103, 39, 0.1);
+        }
+
+        .form-control::placeholder {
+            color: #94a3b8;
+        }
+
+        /* Radio & Checkbox Groups - Improved */
+        .radio-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            background: white;
+            padding: 1rem 1.5rem;
+            border-radius: 16px;
+            border: 1.5px solid var(--gray-border);
+        }
+
+        .radio-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .radio-item input[type="radio"] {
+            width: 18px;
+            height: 18px;
+            accent-color: var(--primary);
+        }
+
+        .checkbox-group {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+            background: white;
+            padding: 1.5rem;
+            border-radius: 16px;
+            border: 1.5px solid var(--gray-border);
+        }
+
+        .checkbox-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .checkbox-item input[type="checkbox"] {
+            width: 18px;
+            height: 18px;
+            accent-color: var(--primary);
+        }
+
+        /* Pill style for options - Improved */
+        .pill-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            background: white;
+            padding: 1rem 1.5rem;
+            border-radius: 16px;
+            border: 1.5px solid var(--gray-border);
+        }
+
+        .pill-radio {
+            display: none;
+        }
+
+        .pill-label {
+            display: inline-block;
+            padding: 0.6rem 1.5rem;
+            background: var(--gray-light);
+            border: 1.5px solid var(--gray-border);
+            border-radius: 40px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: #475569;
+            cursor: pointer;
+            transition: all 0.2s;
+            min-width: 60px;
+            text-align: center;
+        }
+
+        .pill-radio:checked+.pill-label {
+            background: var(--primary);
+            border-color: var(--primary);
+            color: white;
+            box-shadow: 0 4px 10px rgba(242, 103, 39, 0.3);
+        }
+
+        /* File Upload - Improved with preview */
+        .upload-container {
+            background: white;
+            border: 1.5px solid var(--gray-border);
+            border-radius: 16px;
+            overflow: hidden;
+        }
+
+        .upload-area {
+            padding: 2rem;
+            text-align: center;
+            background: var(--gray-light);
+            cursor: pointer;
+            transition: all 0.3s;
+            border-bottom: 1px solid var(--gray-border);
+        }
+
+        .upload-area:hover {
+            background: rgba(242, 103, 39, 0.02);
+            border-color: var(--primary);
+        }
+
+        .upload-area i {
+            font-size: 2.5rem;
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .upload-area p {
+            color: #64748b;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        .upload-area small {
+            color: #94a3b8;
+            font-size: 0.8rem;
+        }
+
+        .file-preview-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1rem;
+            padding: 1.5rem;
+            background: white;
+        }
+
+        .preview-item {
+            position: relative;
+            aspect-ratio: 1/1;
+            border-radius: 12px;
+            overflow: hidden;
+            border: 2px solid var(--gray-border);
+        }
+
+        .preview-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .preview-item .remove-btn {
+            position: absolute;
+            top: 4px;
+            right: 4px;
+            width: 24px;
+            height: 24px;
+            background: rgba(0, 0, 0, 0.6);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: all 0.2s;
+        }
+
+        .preview-item .remove-btn:hover {
+            background: var(--primary);
+            transform: scale(1.1);
+        }
+
+        .preview-item .file-name {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.6);
+            color: white;
+            font-size: 0.7rem;
+            padding: 4px;
+            text-align: center;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+            padding: 0.9rem 2rem;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 1rem;
+            border: none;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: all 0.3s;
+            box-shadow: 0 10px 20px -5px rgba(242, 103, 39, 0.3);
+        }
+
+        .btn-primary:hover {
+            background: var(--primary-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 15px 30px -5px rgba(242, 103, 39, 0.4);
+        }
+
+        /* Trust Strip */
+        .trust-strip {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+            margin: 2.5rem 0 0;
+            padding: 1.5rem;
+            background-color: #fff;
+            border-radius: 24px;
+            border: 1px solid var(--gray-border);
+        }
+
+        .trust-item {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .trust-icon {
+            width: 48px;
+            height: 48px;
+            background: white;
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.02);
+        }
+
+        .trust-icon i {
+            font-size: 1.5rem;
+            color: var(--primary);
+        }
+
+        .trust-text h4 {
+            font-weight: 600;
+            font-size: 0.95rem;
+            color: var(--dark);
+        }
+
+        .trust-text p {
+            font-size: 0.8rem;
+            color: #64748b;
+        }
+
+        /* Service-specific fields */
+        .asbestos-field {
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            .service-selector {
+                border-radius: 16px;
+            }
+
+            .quote-header {
+                padding: 1.5rem;
+            }
+
+            .form-body {
+                padding: .8rem;
+            }
+
+            .service-selector {
+                flex-direction: column;
+                width: 100%;
+            }
+
+            .trust-strip {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+
+            .form-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .radio-group {
+                flex-direction: column;
+                gap: 0.75rem;
+            }
+
+            .checkbox-group {
+                grid-template-columns: 1fr;
+            }
+
+            .file-preview-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header id="header"></header>
+    <!-- Main Quote Section -->
+    <section class="pt-28 md:pt-36 pb-16">
+        <div class="max-w-4xl mx-auto px-4 lg:px-8">
+            <!-- Quote Card -->
+            <div class="quote-card">
+                <!-- Header with service selector -->
+                <div class="quote-header">
+                    <h2 class="text-2xl font-bold text-white ">Get Your Free Quote</h2>
+
+                    <!-- Service Selector - Required -->
+                    <div class="service-selector">
+                        <button type="button" id="mouldServiceBtn" class="service-option active"
+                            onclick="setService('mould')">
+                            <i class="ri-drop-line mr-2"></i>Mould Treatment
+                        </button>
+                        <button type="button" id="asbestosServiceBtn" class="service-option"
+                            onclick="setService('asbestos')">
+                            <i class="ri-shield-check-line mr-2"></i>Asbestos Removal
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Form Body -->
+                <div class="form-body">
+                    <form id="quoteForm" action="https://formsubmit.co/fahimicircles@gmail.com" method="POST" enctype="multipart/form-data">
+                        <!-- FormSubmit.co Configuration -->
+                        <input type="hidden" name="_subject" value="New Quote Request - Jim's Hazardous Material Removal (Auburn) Website">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you.html">
+                        <input type="hidden" name="_autoresponse"
+                            value="Thank you for contacting Jim's Hazardous Material Removal (Auburn). We have received your quote request and will get back to you within 24 hours.">
+
+                        <!-- Hidden fields to capture service type and all form data -->
+                        <input type="hidden" name="service_selected" id="serviceSelected" value="Mould Treatment">
+
+                        <!-- I'd like to* Section -->
+                        <div class="form-section">
+                            <div class="section-title">
+                                <i class="ri-questionnaire-line"></i>
+                                <span>Quote Preference</span>
+                            </div>
+
+                            <!-- Mould Preference -->
+                            <div id="mouldPreferenceField" class="form-group">
+                                <label class="form-label">I'd like to <span class="required">*</span></label>
+                                <div class="radio-group">
+                                    <div class="radio-item">
+                                        <input type="radio" name="quotePreference" id="quoteMould"
+                                            value="Mould Treatment - Get a Quote" checked>
+                                        <label for="quoteMould">Get a Quote for Mould Treatment</label>
+                                    </div>
+                                    <div class="radio-item">
+                                        <input type="radio" name="quotePreference" id="quoteReport"
+                                            value="Mould Treatment - Causation Report">
+                                        <label for="quoteReport">Get a price for a Causation / Prevention Report</label>
+                                    </div>
+                                    <div class="radio-item">
+                                        <input type="radio" name="quotePreference" id="quoteBoth"
+                                            value="Mould Treatment - Both">
+                                        <label for="quoteBoth">Both</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Asbestos Preference -->
+                            <div id="asbestosPreferenceField" class="form-group asbestos-field">
+                                <label class="form-label">I'd like to <span class="required">*</span></label>
+                                <div class="radio-group">
+                                    <div class="radio-item">
+                                        <input type="radio" name="asbestosPreference" id="asbestosQuote"
+                                            value="Asbestos Removal - Get a Quote" checked>
+                                        <label for="asbestosQuote">Get a Quote for Asbestos Removal</label>
+                                    </div>
+                                    <div class="radio-item">
+                                        <input type="radio" name="asbestosPreference" id="asbestosTesting"
+                                            value="Asbestos Removal - Testing Only">
+                                        <label for="asbestosTesting">Asbestos Testing Only</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Personal Information Section -->
+                        <div class="form-section">
+                            <div class="section-title">
+                                <i class="ri-user-line"></i>
+                                <span>Your Details</span>
+                            </div>
+                            <div class="form-grid">
+                                <div class="form-group mb-0">
+                                    <label class="form-label">First Name <span class="required">*</span></label>
+                                    <input type="text" name="first_name" class="form-control" placeholder="John"
+                                        required>
+                                </div>
+                                <div class="form-group mb-0">
+                                    <label class="form-label">Last Name <span class="required">*</span></label>
+                                    <input type="text" name="last_name" class="form-control" placeholder="Smith"
+                                        required>
+                                </div>
+                                <div class="form-group mb-0">
+                                    <label class="form-label">Phone <span class="required">*</span></label>
+                                    <input type="tel" name="phone" class="form-control" placeholder="0400 123 456"
+                                        required>
+                                </div>
+                                <div class="form-group mb-0">
+                                    <label class="form-label">Email <span class="required">*</span></label>
+                                    <input type="email" name="email" class="form-control" placeholder="john@example.com"
+                                        required>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Property Information Section -->
+                        <div class="form-section">
+                            <div class="section-title">
+                                <i class="ri-home-line"></i>
+                                <span>Property Information</span>
+                            </div>
+                            <div class="form-grid">
+                                <div class="form-group">
+                                    <label class="form-label">Full Property Address <span
+                                            class="required">*</span></label>
+                                    <input type="text" name="address" class="form-control" placeholder="123 Main Street"
+                                        required>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Suburb <span class="required">*</span></label>
+                                    <input type="text" name="suburb" class="form-control" placeholder="Sydney" required>
+                                </div>
+                            </div>
+
+                            <!-- Are you the:* -->
+                            <div class="form-group">
+                                <label class="form-label">Are you the: <span class="required">*</span></label>
+                                <div class="radio-group">
+                                    <div class="radio-item">
+                                        <input type="radio" name="occupantType" id="owner" value="Owner" checked>
+                                        <label for="owner">Owner</label>
+                                    </div>
+                                    <div class="radio-item">
+                                        <input type="radio" name="occupantType" id="tenant" value="Tenant">
+                                        <label for="tenant">Tenant</label>
+                                    </div>
+                                    <div class="radio-item">
+                                        <input type="radio" name="occupantType" id="propertyManager"
+                                            value="Property Manager">
+                                        <label for="propertyManager">Property Manager</label>
+                                    </div>
+                                    <div class="radio-item">
+                                        <input type="radio" name="occupantType" id="strata"
+                                            value="Strata / Body Corporate">
+                                        <label for="strata">Strata / Body Corporate</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Service Details Section -->
+                        <div class="form-section">
+                            <div class="section-title">
+                                <i class="ri-file-list-line"></i>
+                                <span>Service Details</span>
+                            </div>
+
+                            <!-- MOULD FIELDS -->
+                            <div id="mouldFields">
+                                <!-- How many rooms/areas are affected with VISIBLE mould?* -->
+                                <div class="form-group">
+                                    <label class="form-label">How many rooms/areas are affected with VISIBLE mould?
+                                        <span class="required">*</span></label>
+                                    <div class="pill-group">
+                                        <input type="radio" name="mould_rooms" id="mould1" class="pill-radio" value="1"
+                                            checked>
+                                        <label for="mould1" class="pill-label">1</label>
+
+                                        <input type="radio" name="mould_rooms" id="mould2" class="pill-radio" value="2">
+                                        <label for="mould2" class="pill-label">2</label>
+
+                                        <input type="radio" name="mould_rooms" id="mould3" class="pill-radio" value="3">
+                                        <label for="mould3" class="pill-label">3</label>
+
+                                        <input type="radio" name="mould_rooms" id="mould4" class="pill-radio" value="4">
+                                        <label for="mould4" class="pill-label">4</label>
+
+                                        <input type="radio" name="mould_rooms" id="mould5plus" class="pill-radio"
+                                            value="5+">
+                                        <label for="mould5plus" class="pill-label">5+</label>
+                                    </div>
+                                </div>
+
+                                <!-- Are you aware of the cause of the mould?* -->
+                                <div class="form-group">
+                                    <label class="form-label">Are you aware of the cause of the mould? <span
+                                            class="required">*</span></label>
+                                    <div class="radio-group">
+                                        <div class="radio-item">
+                                            <input type="radio" name="mould_cause" id="causeYes" value="Yes" checked>
+                                            <label for="causeYes">Yes</label>
+                                        </div>
+                                        <div class="radio-item">
+                                            <input type="radio" name="mould_cause" id="causeNo" value="No">
+                                            <label for="causeNo">No</label>
+                                        </div>
+                                        <div class="radio-item">
+                                            <input type="radio" name="mould_cause" id="causeUnsure" value="Unsure">
+                                            <label for="causeUnsure">Unsure</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Is the mould on: -->
+                                <div class="form-group">
+                                    <label class="form-label">Is the mould on:</label>
+                                    <div class="checkbox-group">
+                                        <div class="checkbox-item">
+                                            <input type="checkbox" name="mould_location[]" id="mouldCeiling"
+                                                value="Ceiling">
+                                            <label for="mouldCeiling">Ceiling</label>
+                                        </div>
+                                        <div class="checkbox-item">
+                                            <input type="checkbox" name="mould_location[]" id="mouldWalls"
+                                                value="Walls">
+                                            <label for="mouldWalls">Walls</label>
+                                        </div>
+                                        <div class="checkbox-item">
+                                            <input type="checkbox" name="mould_location[]" id="mouldFloor"
+                                                value="Floor">
+                                            <label for="mouldFloor">Floor</label>
+                                        </div>
+                                        <div class="checkbox-item">
+                                            <input type="checkbox" name="mould_location[]" id="mouldWindows"
+                                                value="Windows / Sills">
+                                            <label for="mouldWindows">Windows / Sills</label>
+                                        </div>
+                                        <div class="checkbox-item">
+                                            <input type="checkbox" name="mould_location[]" id="mouldFurniture"
+                                                value="Furniture">
+                                            <label for="mouldFurniture">Furniture</label>
+                                        </div>
+                                        <div class="checkbox-item">
+                                            <input type="checkbox" name="mould_location[]" id="mouldOther"
+                                                value="Other">
+                                            <label for="mouldOther">Other</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Description -->
+                                <div class="form-group">
+                                    <label class="form-label">Please provide an accurate description of which rooms /
+                                        areas are affected for quoting purposes <span class="required">*</span></label>
+                                    <textarea class="form-control" name="mould_description" rows="3"
+                                        placeholder="e.g., Bathroom ceiling and walls, bedroom wardrobe, laundry..."
+                                        required></textarea>
+                                </div>
+
+                                <!-- Additional Information -->
+                                <div class="form-group">
+                                    <label class="form-label">Additional / Detailed Information</label>
+                                    <textarea class="form-control" name="mould_additional" rows="3"
+                                        placeholder="Any other relevant details..."></textarea>
+                                </div>
+                            </div>
+
+                            <!-- ASBESTOS FIELDS -->
+                            <div id="asbestosFields" class="asbestos-field">
+                                <!-- How many areas contain suspected asbestos?* -->
+                                <div class="form-group">
+                                    <label class="form-label">How many areas contain suspected asbestos? <span
+                                            class="required">*</span></label>
+                                    <div class="pill-group">
+                                        <input type="radio" name="asbestos_areas" id="asbestos1" class="pill-radio"
+                                            value="1" checked>
+                                        <label for="asbestos1" class="pill-label">1</label>
+
+                                        <input type="radio" name="asbestos_areas" id="asbestos2" class="pill-radio"
+                                            value="2">
+                                        <label for="asbestos2" class="pill-label">2</label>
+
+                                        <input type="radio" name="asbestos_areas" id="asbestos3" class="pill-radio"
+                                            value="3">
+                                        <label for="asbestos3" class="pill-label">3</label>
+
+                                        <input type="radio" name="asbestos_areas" id="asbestos4" class="pill-radio"
+                                            value="4">
+                                        <label for="asbestos4" class="pill-label">4</label>
+
+                                        <input type="radio" name="asbestos_areas" id="asbestos5plus" class="pill-radio"
+                                            value="5+">
+                                        <label for="asbestos5plus" class="pill-label">5+</label>
+                                    </div>
+                                </div>
+
+                                <!-- Testing status -->
+                                <div class="form-group">
+                                    <label class="form-label">Have you had asbestos testing conducted to confirm the
+                                        presence of asbestos? <span class="required">*</span></label>
+                                    <div class="radio-group">
+                                        <div class="radio-item">
+                                            <input type="radio" name="asbestos_tested" id="testedYes" value="Yes"
+                                                checked>
+                                            <label for="testedYes">Yes</label>
+                                        </div>
+                                        <div class="radio-item">
+                                            <input type="radio" name="asbestos_tested" id="testedNo" value="No">
+                                            <label for="testedNo">No</label>
+                                        </div>
+                                        <div class="radio-item">
+                                            <input type="radio" name="asbestos_tested" id="testedUnsure"
+                                                value="Unsure / Waiting for results">
+                                            <label for="testedUnsure">Unsure / Waiting for results</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Asbestos location -->
+                                <div class="form-group">
+                                    <label class="form-label">Where is the asbestos located?</label>
+                                    <div class="checkbox-group">
+                                        <div class="checkbox-item">
+                                            <input type="checkbox" name="asbestos_location[]" id="asbestosRoof"
+                                                value="Roof / Eaves">
+                                            <label for="asbestosRoof">Roof / Eaves</label>
+                                        </div>
+                                        <div class="checkbox-item">
+                                            <input type="checkbox" name="asbestos_location[]" id="asbestosWalls"
+                                                value="Wall cladding">
+                                            <label for="asbestosWalls">Wall cladding</label>
+                                        </div>
+                                        <div class="checkbox-item">
+                                            <input type="checkbox" name="asbestos_location[]" id="asbestosFencing"
+                                                value="Fencing">
+                                            <label for="asbestosFencing">Fencing</label>
+                                        </div>
+                                        <div class="checkbox-item">
+                                            <input type="checkbox" name="asbestos_location[]" id="asbestosFlooring"
+                                                value="Flooring / Vinyl">
+                                            <label for="asbestosFlooring">Flooring / Vinyl</label>
+                                        </div>
+                                        <div class="checkbox-item">
+                                            <input type="checkbox" name="asbestos_location[]" id="asbestosPipe"
+                                                value="Pipe lagging">
+                                            <label for="asbestosPipe">Pipe lagging</label>
+                                        </div>
+                                        <div class="checkbox-item">
+                                            <input type="checkbox" name="asbestos_location[]" id="asbestosOther"
+                                                value="Other">
+                                            <label for="asbestosOther">Other</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Asbestos description -->
+                                <div class="form-group">
+                                    <label class="form-label">Please provide an accurate description of where the
+                                        asbestos is located for quoting purposes <span class="required">*</span></label>
+                                    <textarea class="form-control" name="asbestos_description" rows="3"
+                                        placeholder="e.g., Garage roof, backyard fencing, bathroom walls..."
+                                        required></textarea>
+                                </div>
+
+                                <!-- Size and type -->
+                                <div class="form-group">
+                                    <label class="form-label">Please provide the approximate size (sqm) and type of
+                                        asbestos material</label>
+                                    <textarea class="form-control" name="asbestos_size" rows="2"
+                                        placeholder="e.g., 20 sqm of corrugated roofing sheets..."></textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Questions Section -->
+                        <div class="form-section">
+                            <div class="section-title">
+                                <i class="ri-question-answer-line"></i>
+                                <span>Additional Information</span>
+                            </div>
+
+                            <!-- Do you have any questions? -->
+                            <div class="form-group">
+                                <label class="form-label">Do you have any questions?</label>
+                                <textarea class="form-control" name="questions" rows="2"
+                                    placeholder="Any questions for our team..."></textarea>
+                            </div>
+
+                            <!-- Upload Photos -->
+                            <div class="form-group">
+                                <label class="form-label">Upload Photos of ALL the affected rooms / areas...</label>
+                                <div class="upload-container">
+                                    <div class="upload-area" onclick="document.getElementById('fileUpload').click()">
+                                        <i class="ri-upload-cloud-line"></i>
+                                        <p>Click to upload or drag and drop</p>
+                                        <small>JPG, PNG, HEIC (max 10MB each)</small>
+                                        <input type="file" id="fileUpload" name="photos[]" multiple accept="image/*"
+                                            style="display: none;" onchange="handleFileSelect(event)">
+                                    </div>
+                                    <div id="filePreview" class="file-preview-grid">
+                                        <!-- Preview items will be added here dynamically -->
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Submit Button -->
+                        <div class="flex justify-end">
+                            <button type="submit" class="btn-primary">
+                                Get Free Quote <i class="ri-send-plane-line"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Trust Strip -->
+            <div class="trust-strip">
+                <div class="trust-item">
+                    <div class="trust-icon">
+                        <i class="ri-timer-line"></i>
+                    </div>
+                    <div class="trust-text">
+                        <h4>24h Response</h4>
+                        <p>Guaranteed</p>
+                    </div>
+                </div>
+                <div class="trust-item">
+                    <div class="trust-icon">
+                        <i class="ri-shield-check-line"></i>
+                    </div>
+                    <div class="trust-text">
+                        <h4>Licensed & Insured</h4>
+                        <p>Full certification</p>
+                    </div>
+                </div>
+                <div class="trust-item">
+                    <div class="trust-icon">
+                        <i class="ri-customer-service-2-line"></i>
+                    </div>
+                    <div class="trust-text">
+                        <h4>24/7 Support</h4>
+                        <p>Emergency help</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer"></footer>
+    <script>
+        // Store uploaded files
+        let uploadedFiles = [];
+
+        // Service selector functionality
+        function setService(service) {
+            // Update active state on buttons
+            document.getElementById('mouldServiceBtn').classList.remove('active');
+            document.getElementById('asbestosServiceBtn').classList.remove('active');
+
+            // Update hidden service field
+            document.getElementById('serviceSelected').value = service === 'mould' ? 'Mould Treatment' : 'Asbestos Removal';
+
+            if (service === 'mould') {
+                document.getElementById('mouldServiceBtn').classList.add('active');
+                document.getElementById('mouldPreferenceField').style.display = 'block';
+                document.getElementById('asbestosPreferenceField').style.display = 'none';
+                document.getElementById('mouldFields').style.display = 'block';
+                document.getElementById('asbestosFields').style.display = 'none';
+
+                // Remove required attribute from asbestos fields
+                document.querySelectorAll('#asbestosFields [required]').forEach(field => {
+                    field.required = false;
+                });
+                // Add required attribute to mould fields
+                document.querySelectorAll('#mouldFields [required]').forEach(field => {
+                    field.required = true;
+                });
+            } else {
+                document.getElementById('asbestosServiceBtn').classList.add('active');
+                document.getElementById('mouldPreferenceField').style.display = 'none';
+                document.getElementById('asbestosPreferenceField').style.display = 'block';
+                document.getElementById('mouldFields').style.display = 'none';
+                document.getElementById('asbestosFields').style.display = 'block';
+
+                // Remove required attribute from mould fields
+                document.querySelectorAll('#mouldFields [required]').forEach(field => {
+                    field.required = false;
+                });
+                // Add required attribute to asbestos fields
+                document.querySelectorAll('#asbestosFields [required]').forEach(field => {
+                    field.required = true;
+                });
+            }
+        }
+
+        // Update service field before submit
+        function updateServiceField() {
+            const activeBtn = document.querySelector('.service-option.active');
+            const serviceValue = activeBtn ? activeBtn.innerText.trim() : 'Mould Treatment';
+            document.getElementById('serviceSelected').value = serviceValue;
+            return true; // Allow form submission to continue
+        }
+
+        // Handle file selection
+        function handleFileSelect(event) {
+            const files = Array.from(event.target.files);
+            const previewGrid = document.getElementById('filePreview');
+
+            files.forEach(file => {
+                if (file.type.startsWith('image/')) {
+                    const reader = new FileReader();
+
+                    reader.onload = function (e) {
+                        uploadedFiles.push({
+                            file: file,
+                            preview: e.target.result,
+                            name: file.name
+                        });
+
+                        // Create preview element
+                        const previewItem = document.createElement('div');
+                        previewItem.className = 'preview-item';
+                        previewItem.innerHTML = `
+                        <img src="${e.target.result}" alt="${file.name}">
+                        <button type="button" class="remove-btn" onclick="removeFile(${uploadedFiles.length - 1})">
+                            <i class="ri-close-line"></i>
+                        </button>
+                        <div class="file-name">${file.name.substring(0, 15)}${file.name.length > 15 ? '...' : ''}</div>
+                    `;
+                        previewGrid.appendChild(previewItem);
+                    };
+
+                    reader.readAsDataURL(file);
+                }
+            });
+
+            // Clear the input so the same file can be selected again if needed
+            event.target.value = '';
+        }
+
+        // Remove file from preview
+        function removeFile(index) {
+            uploadedFiles.splice(index, 1);
+            updateFilePreview();
+        }
+
+        // Update file preview grid (reload all previews)
+        function updateFilePreview() {
+            const previewGrid = document.getElementById('filePreview');
+            previewGrid.innerHTML = '';
+
+            uploadedFiles.forEach((file, index) => {
+                const previewItem = document.createElement('div');
+                previewItem.className = 'preview-item';
+                previewItem.innerHTML = `
+                <img src="${file.preview}" alt="${file.name}">
+                <button type="button" class="remove-btn" onclick="removeFile(${index})">
+                    <i class="ri-close-line"></i>
+                </button>
+                <div class="file-name">${file.name.substring(0, 15)}${file.name.length > 15 ? '...' : ''}</div>
+            `;
+                previewGrid.appendChild(previewItem);
+            });
+        }
+
+        // Form submission handler (optional - if you want to do something before submit)
+        function prepareSubmit() {
+            updateServiceField();
+
+            // You can add validation here if needed
+            const activeService = document.querySelector('.service-option.active').innerText.trim();
+
+            if (activeService.includes('Mould')) {
+                // Validate mould fields
+                const requiredFields = document.querySelectorAll('#mouldFields [required]');
+                for (let field of requiredFields) {
+                    if (!field.value) {
+                        alert('Please fill in all required fields');
+                        field.focus();
+                        return false;
+                    }
+                }
+            } else {
+                // Validate asbestos fields
+                const requiredFields = document.querySelectorAll('#asbestosFields [required]');
+                for (let field of requiredFields) {
+                    if (!field.value) {
+                        alert('Please fill in all required fields');
+                        field.focus();
+                        return false;
+                    }
+                }
+            }
+
+            return true; // Allow form to submit
+        }
+
+        // Initialize on page load
+        document.addEventListener('DOMContentLoaded', function () {
+            // Set initial service (mould)
+            setService('mould');
+
+            // Add submit handler to form
+            const form = document.getElementById('quoteForm');
+            form.onsubmit = function () {
+                return prepareSubmit();
+            };
+        });
+    </script>
+
+    <script src="http://localhost:8888/mk/assets/js/component.js"></script>
+    <script src="http://localhost:8888/mk/assets/js/custom.js"></script>
+</body>
+
+</html>

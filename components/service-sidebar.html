@@ -1,0 +1,174 @@
+<!-- Service Page Sidebar Component - Dynamic Version -->
+<div class="sidebar-card">
+    <!-- Our Services with Hierarchy -->
+    <div class="p-6 border-b border-white/10">
+        <h3 class="text-lg font-bold text-white mb-4 flex items-center gap-2">
+            Our Services
+        </h3>
+
+            <!-- Asbestos Service (with children) -->
+        <div class="service-section asbestos-section">
+            <div class="service-main" data-service="asbestos">
+                <span>Asbestos Service</span>
+                <i class="ri-arrow-down-s-line"></i>
+            </div>
+            <div class="service-sub-container asbestos-submenu">
+                <div class="service-sub" data-page="asbestos-testing">
+                    <a href="asbestos-testing.html">
+                        <span>Asbestos Testing</span>
+                        <i class="ri-arrow-right-s-line"></i>
+                    </a>
+                </div>
+                <div class="service-sub" data-page="asbestos-removal">
+                    <a href="asbestos-removal.html">
+                        <span>Asbestos Removal</span>
+                        <i class="ri-arrow-right-s-line"></i>
+                    </a>
+                </div>
+                <div class="service-sub" data-page="asbestos-encapsulation">
+                    <a href="asbestos-encapsulation.html">
+                        <span>Asbestos Encapsulation</span>
+                        <i class="ri-arrow-right-s-line"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mould Service (with children) - will be shown/hidden based on current page -->
+        <div class="service-section mould-section">
+            <div class="service-main" data-service="mould">
+                <span>Mould Service</span>
+                <i class="ri-arrow-down-s-line"></i>
+            </div>
+            <div class="service-sub-container mould-submenu">
+                <div class="service-sub" data-page="mould-removal">
+                    <a href="mould-removal.html">
+                        <span>Mould Removal</span>
+                        <i class="ri-arrow-right-s-line"></i>
+                    </a>
+                </div>
+                <div class="service-sub" data-page="mould-prevention">
+                    <a href="mould-prevention.html">
+                        <span>Mould Prevention</span>
+                        <i class="ri-arrow-right-s-line"></i>
+                    </a>
+                </div>
+                <div class="service-sub" data-page="mould-reports">
+                    <a href="mould-reports.html">
+                        <span>Causation & Prevention Reports</span>
+                        <i class="ri-arrow-right-s-line"></i>
+                    </a>
+                </div>
+                <div class="service-sub" data-page="mould-fogging">
+                    <a href="mould-fogging.html">
+                        <span>Mould Fogging Treatment</span>
+                        <i class="ri-arrow-right-s-line"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    
+
+        <!-- Meth Lab Cleanup (no children) -->
+        <div class="service-section">
+            <a href="meth-lab-cleanup.html" class="service-main" data-page="meth">
+                <span>Meth Lab Cleanup</span>
+                <i class="ri-arrow-right-s-line"></i>
+            </a>
+        </div>
+
+        <!-- Fire Restoration (no children) -->
+        <div class="service-section">
+            <a href="fire-restoration.html" class="service-main" data-page="fire">
+                <span>Fire Restoration</span>
+                <i class="ri-arrow-right-s-line"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- Contact Us - Enhanced -->
+    <div class="p-6 border-b border-white/10">
+        <h3 class="text-lg font-bold text-white mb-4 flex items-center gap-2">
+            <i class="ri-customer-service-2-line"></i> Contact Us
+        </h3>
+        <div class="space-y-3">
+            <div class="contact-item">
+                <div class="contact-icon">
+                    <i class="ri-phone-line"></i>
+                </div>
+                <div>
+                    <div class="text-xs text-white/70">Call us 24/7</div>
+                    <a href="tel:+1234567890" class="font-semibold text-white text-base">0435 558 133</a>
+                </div>
+            </div>
+            <div class="contact-item">
+                <div class="contact-icon">
+                    <i class="ri-mail-line"></i>
+                </div>
+                <div>
+                    <div class="text-xs text-white/70">Email us</div>
+                    <a href="mailto:auburn@jimshazmatremoval.com.au" class="font-semibold text-white text-base">auburn@jimshazmatremoval.com.au</a>
+                </div>
+            </div>
+            <div class="contact-item">
+                <div class="contact-icon">
+                    <i class="ri-map-pin-line"></i>
+                </div>
+                <div>
+                    <div class="text-xs text-white/70">Sydney Office</div>
+                    <div class="font-semibold text-white text-base">123 Business St, Sydney</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CTA Button -->
+    <div class="p-6 border-b border-white/10">
+        <a href="quote.php"
+            class="block w-full bg-white text-[#F26727] text-center px-6 py-4 rounded-xl font-semibold text-lg hover:bg-gray-100 transition-all shadow-xl">
+            <i class="ri-file-copy-line mr-2"></i>
+            Get a Free Online Quote
+        </a>
+        <p class="text-xs text-white/60 text-center mt-3">No obligation · Response within 24h</p>
+    </div>
+
+    <!-- Rating Badge -->
+    <div class="p-6 border-b border-white/10">
+        <div class="rating-badge-sidebar">
+            <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center flex-shrink-0">
+                <i class="ri-star-fill text-[#F26727] text-2xl"></i>
+            </div>
+            <div>
+                <div class="flex items-center gap-1 mb-1">
+                    <i class="ri-star-fill text-yellow-300"></i>
+                    <i class="ri-star-fill text-yellow-300"></i>
+                    <i class="ri-star-fill text-yellow-300"></i>
+                    <i class="ri-star-fill text-yellow-300"></i>
+                    <i class="ri-star-fill text-yellow-300"></i>
+                    <span class="text-sm font-bold text-white ml-1">5.0</span>
+                </div>
+                <p class="text-xs text-white/80">Rated "Excellent" on Google</p>
+                <p class="text-xs text-white/60">2,500+ verified reviews</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Trust Badges -->
+    <div class="p-6">
+        <div class="trust-grid-sidebar">
+            <div class="trust-item-sidebar">
+                <i class="ri-shield-check-line"></i>
+                <p class="text-xs font-medium">Licensed</p>
+            </div>
+            <div class="trust-item-sidebar">
+                <i class="ri-safe-line"></i>
+                <p class="text-xs font-medium">Insured</p>
+            </div>
+            <div class="trust-item-sidebar">
+                <i class="ri-award-line"></i>
+                <p class="text-xs font-medium">Certified</p>
+            </div>
+        </div>
+    </div>
+</div>
